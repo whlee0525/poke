@@ -41,7 +41,7 @@ const Poketmon = ({ name, picture }: Props) => {
     <Mirror onClick={handleClickMirror}>
       <S.Wrapper>
         <h1>당신은 {name}을(를) 닮았습니다</h1>
-        <Image src={picture || ""} alt={name} width="250px" height="250px" />
+        <Image src={picture || ""} alt={name} width="200px" height="200px" />
         <p>다시 질문하기</p>
       </S.Wrapper>
     </Mirror>

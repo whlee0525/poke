@@ -8,7 +8,7 @@ export const Mirror = styled.button`
   max-height: 700px;
   border: 10px solid Gray;
   border-radius: 50%;
-  padding: 70px 30px 30px;
+  padding: 0 50px;
   background: linear-gradient(45deg, white, skyblue);
 
   display: flex;
