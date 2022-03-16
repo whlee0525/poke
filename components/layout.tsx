@@ -6,9 +6,5 @@ interface Props {
 }
 
 export default function Layout({ children }: Props) {
-  return (
-    <S.Wrapper>
-      <S.Mirror>{children}</S.Mirror>
-    </S.Wrapper>
-  );
+  return <S.Wrapper>{children}</S.Wrapper>;
 }
