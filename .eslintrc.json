@@ -1,3 +1,4 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": ["eslint:recommended", "eslint-config-prettier", "plugin:prettier/recommended"]
+  // "extends": ["eslint:recommended", "eslint-config-prettier", "next", "next/core-web-vitals", "plugin:prettier/recommended"]
 }
