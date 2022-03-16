@@ -4,12 +4,12 @@ import Link from 'next/link';
 
 import * as S from './poketmon.styled';
 
-export async function getServerSideProps({params}) {
+export async function getServerSideProps({params}:{params:{pid:string}}) {
   const { pid } = params;
 
   const speciesRes = await fetch(`https://pokeapi.co/api/v2/pokemon-species/${pid}`)
   const {names} = await speciesRes.json();
-  const name = names?.find(({language}) => language.name === 'ko')?.name;
+  const name = names?.find(({language}:{language:{name:string}}) => language.name === 'ko')?.name;
   
   const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${pid}`)
   const { sprites } = await res.json();
