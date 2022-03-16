@@ -1,4 +1,4 @@
-import styled from '@emotion/styled';
+import styled from "@emotion/styled";
 
 export const Wrapper = styled.div`
   width: 100vw;
@@ -18,14 +18,14 @@ export const Mirror = styled.div`
   border: 10px solid Gray;
   border-radius: 50%;
   padding: 30px;
-  background: linear-gradient( 45deg, white, skyblue );
+  background: linear-gradient(45deg, white, skyblue);
 
   display: flex;
   flex-direction: column;
   align-itmes: center;
   justify-content: center;
   text-align: center;
-  
+
   font-size: 16px;
   font-weight: 500;
 
