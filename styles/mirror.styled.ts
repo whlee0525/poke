@@ -2,8 +2,8 @@ import styled from "@emotion/styled";
 
 export const Mirror = styled.button`
   margin: 0 auto;
-  width: 80vw;
-  height: 70vh;
+  width: 90vw;
+  height: 80vh;
   max-width: 500px;
   max-height: 700px;
   border: 10px solid Gray;
