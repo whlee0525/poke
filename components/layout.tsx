@@ -1,5 +1,5 @@
-import React from "react";
-import * as S from "./layout.styled";
+import React from 'react';
+import * as S from './layout.styled';
 
 interface Props {
   children: React.ReactNode;
