@@ -1,3 +1,30 @@
 {
-  "name": "poke pwa"
+  "short_name": "Poke",
+  "name": "Poke PWA",
+  "description": "desc인데 이건 어디에 표시될까?",
+  "icons": [
+    {
+      "src": "icons/heart-152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/heart-167.png",
+      "sizes": "167x167",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/heart-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/heart-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#F0F0F0",
+  "start_url": "/",
+  "display": "standalone"
 }
